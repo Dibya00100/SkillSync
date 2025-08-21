@@ -1,0 +1,7 @@
+flask
+fastapi
+uvicorn
+python-docx
+pdfplumber
+pymupdf
+spacy
