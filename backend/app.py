@@ -1,8 +1,6 @@
 from flask import  Flask, request, jsonify
-from werkzeug.http import parse_date
-
 from parser import parse_resume
-
+from parser_jd import parse_jd
 app = Flask(__name__)
 
 @app.route("/parse_resume", methods=["POST"])
@@ -20,6 +18,20 @@ def upload_resume():
     #Parse resume
     parse_data = parse_resume(filepath)
     return jsonify(parse_data)
+
+@app.route("/parse_jd", methods=["POST"])
+def upload_jd():
+    if "file" in request.files:  # handle file upload
+        file = request.files["file"]
+        text = file.read().decode("utf-8")
+    else:  # handle JSON input
+        data = request.get_json()
+        if not data or "jd_text" not in data:
+            return jsonify({"error": "No JD text provided"}), 400
+        text = data["jd_text"]
+
+    parsed_data = parse_jd(text)
+    return jsonify(parsed_data)
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
