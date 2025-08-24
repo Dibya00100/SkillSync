@@ -2,7 +2,9 @@ from flask import  Flask, request, jsonify
 from parser import parse_resume
 from parser_jd import parse_jd
 from mather import calculate_match
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/parse_resume", methods=["POST"])
 def upload_resume():
@@ -34,7 +36,7 @@ def upload_jd():
     parsed_data = parse_jd(text)
     return jsonify(parsed_data)
 
-@app.route('/match_skill', methods=['POST'])
+@app.route('/match', methods=['POST'])
 def match_resume_jd():
     data = request.get_json()
     if not data or 'resume' not in data or 'jd' not in data:
