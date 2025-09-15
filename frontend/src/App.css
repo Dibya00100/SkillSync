@@ -228,3 +228,401 @@ pre {
 .app.dark .dark-toggle:hover {
   background: #1d4ed8;
 }
+
+/* Enhanced Features Styles */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.tab-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.tab-buttons button:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+.tab-buttons button.active {
+  background: #4f46e5;
+  color: white;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.tab-buttons button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Enhanced Result Styles */
+.enhanced-result {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border: 2px solid #4f46e5;
+  box-shadow: 0 8px 25px rgba(79, 70, 229, 0.15);
+}
+
+.overall-score {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.overall-score h4 {
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+  color: #1f2937;
+}
+
+.score-bar.large {
+  height: 35px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.breakdown-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.breakdown-item h5 {
+  margin: 0 0 10px 0;
+  color: #374151;
+  font-size: 1.1em;
+}
+
+.mini-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.mini-bar div {
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444, #facc15, #22c55e);
+  transition: width 1s ease-in-out;
+}
+
+.breakdown-item small {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.skills-analysis {
+  margin-bottom: 30px;
+}
+
+.skills-analysis h5 {
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-size: 1.3em;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.skill-category {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-category h6 {
+  margin: 0 0 15px 0;
+  color: #374151;
+  font-size: 1.1em;
+}
+
+.tag.extra {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
+
+.analysis {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.analysis h5 {
+  margin: 0 0 20px 0;
+  color: #1f2937;
+  font-size: 1.3em;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.analysis-section {
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 4px solid #4f46e5;
+}
+
+.analysis-section h6 {
+  margin: 0 0 10px 0;
+  color: #374151;
+  font-size: 1.1em;
+}
+
+.analysis-section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.analysis-section li {
+  margin-bottom: 8px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+/* Optimization Styles */
+.optimization-result {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border: 2px solid #f59e0b;
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.15);
+}
+
+.optimization-metrics {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.metric {
+  text-align: center;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.metric h5 {
+  margin: 0 0 10px 0;
+  color: #374151;
+}
+
+.metric-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.suggestions {
+  margin-bottom: 30px;
+}
+
+.suggestions h5 {
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-size: 1.3em;
+}
+
+.suggestion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-left: 4px solid #f59e0b;
+}
+
+.suggestion-icon {
+  font-size: 1.2em;
+}
+
+.recommendations {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.recommendations h5 {
+  margin: 0 0 20px 0;
+  color: #1f2937;
+  font-size: 1.3em;
+}
+
+.recommendations ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.recommendations li {
+  margin-bottom: 12px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* Dark Mode Enhanced Styles */
+.app.dark .tab-buttons {
+  border-bottom-color: #374151;
+}
+
+.app.dark .tab-buttons button {
+  background: #374151;
+  color: #f9fafb;
+}
+
+.app.dark .tab-buttons button:hover {
+  background: #4b5563;
+}
+
+.app.dark .tab-buttons button.active {
+  background: #2563eb;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.app.dark .enhanced-result {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  border-color: #6366f1;
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.15);
+}
+
+.app.dark .overall-score {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .overall-score h4 {
+  color: #f9fafb;
+}
+
+.app.dark .breakdown-item {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .breakdown-item h5 {
+  color: #f9fafb;
+}
+
+.app.dark .breakdown-item small {
+  color: #9ca3af;
+}
+
+.app.dark .skill-category {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .skill-category h6 {
+  color: #f9fafb;
+}
+
+.app.dark .tag.extra {
+  background: #7c2d12;
+  color: #fed7aa;
+  border-color: #ea580c;
+}
+
+.app.dark .analysis {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .analysis h5 {
+  color: #f9fafb;
+}
+
+.app.dark .analysis-section {
+  background: #111827;
+  border-left-color: #6366f1;
+}
+
+.app.dark .analysis-section h6 {
+  color: #f9fafb;
+}
+
+.app.dark .analysis-section li {
+  color: #d1d5db;
+}
+
+.app.dark .optimization-result {
+  background: linear-gradient(135deg, #7c2d12 0%, #92400e 100%);
+  border-color: #ea580c;
+  box-shadow: 0 8px 25px rgba(234, 88, 12, 0.15);
+}
+
+.app.dark .metric {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .metric h5 {
+  color: #f9fafb;
+}
+
+.app.dark .metric-value {
+  color: #6366f1;
+}
+
+.app.dark .suggestions h5 {
+  color: #f9fafb;
+}
+
+.app.dark .suggestion-item {
+  background: #1f2937;
+  color: #f9fafb;
+  border-left-color: #ea580c;
+}
+
+.app.dark .recommendations {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+.app.dark .recommendations h5 {
+  color: #f9fafb;
+}
+
+.app.dark .recommendations li {
+  color: #d1d5db;
+}

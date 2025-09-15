@@ -5,3 +5,16 @@ python-docx
 pdfplumber
 pymupdf
 spacy
+transformers
+torch
+sentence-transformers
+scikit-learn
+numpy
+pandas
+nltk
+textblob
+wordcloud
+plotly
+matplotlib
+seaborn
+flask-cors
