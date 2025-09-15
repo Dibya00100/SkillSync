@@ -1,0 +1,70 @@
+Senior Full Stack Developer - AI/ML Focus
+
+Company: TechCorp Solutions
+Location: San Francisco, CA (Remote OK)
+Type: Full-time
+Experience: 5+ years
+
+About the Role:
+We are seeking a highly skilled Senior Full Stack Developer with expertise in AI and Machine Learning to join our innovative team. You will be responsible for building scalable web applications and integrating cutting-edge AI technologies into our products.
+
+Key Responsibilities:
+• Design and develop full-stack web applications using modern technologies
+• Implement machine learning models and AI features in production systems
+• Build RESTful APIs and microservices architecture
+• Collaborate with data scientists and ML engineers to integrate AI solutions
+• Optimize application performance and ensure scalability
+• Lead code reviews and mentor junior developers
+• Participate in agile development processes and sprint planning
+
+Required Qualifications:
+• 5+ years of experience in full-stack development
+• Strong proficiency in Python, JavaScript, and TypeScript
+• Experience with React.js, Node.js, and Express.js
+• Solid understanding of machine learning concepts and frameworks
+• Experience with TensorFlow, PyTorch, or scikit-learn
+• Knowledge of cloud platforms (AWS, Azure, or GCP)
+• Experience with containerization (Docker, Kubernetes)
+• Strong database skills (PostgreSQL, MongoDB, Redis)
+• Experience with CI/CD pipelines and DevOps practices
+• Excellent problem-solving and communication skills
+
+Preferred Qualifications:
+• Master's degree in Computer Science or related field
+• Experience with MLOps and model deployment
+• Knowledge of data engineering tools (Apache Airflow, Spark)
+• Experience with GraphQL and API design
+• Familiarity with monitoring and logging tools (Prometheus, Grafana)
+• Previous experience in AI/ML product development
+• Contributions to open-source projects
+
+Technical Stack:
+• Frontend: React, TypeScript, Redux, Material-UI
+• Backend: Python, FastAPI, Node.js, Express
+• Databases: PostgreSQL, MongoDB, Redis
+• Cloud: AWS (EC2, S3, Lambda, RDS)
+• ML/AI: TensorFlow, PyTorch, scikit-learn, Pandas
+• DevOps: Docker, Kubernetes, Jenkins, GitLab CI
+• Monitoring: Prometheus, Grafana, ELK Stack
+
+What We Offer:
+• Competitive salary ($120,000 - $180,000)
+• Comprehensive health, dental, and vision insurance
+• 401(k) with company matching
+• Flexible work arrangements and remote work options
+• Professional development budget
+• Stock options
+• Unlimited PTO
+• Modern office space with latest technology
+• Team building events and company retreats
+
+Application Process:
+Please submit your resume, cover letter, and GitHub profile. Include examples of your work with AI/ML integration in web applications. We're looking for candidates who are passionate about technology and eager to work on cutting-edge projects.
+
+Equal Opportunity Employer:
+We are committed to creating a diverse and inclusive workplace. We welcome applications from all qualified candidates regardless of race, gender, age, religion, sexual orientation, or disability status.
+
+Contact:
+For questions about this position, please contact our HR team at careers@techcorp.com or call (555) 123-4567.
+
+Join us in building the future of AI-powered applications!
